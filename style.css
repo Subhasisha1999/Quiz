@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #001e4d;
+
+}
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    /* display: block; */
+}
+
+.correct{
+    background: #9aeabc;
+
+}
+.incorrect{
+    background: #ff9393;
+}
+
+
+
+ /* ----custom scroll bar */
+
+ /* here we add the width for the scroll bar */
+ ::-webkit-scrollbar{
+    width: 15px;
+ }
+
+ /* here we add the vertical line for the scroll bar which is track */
+ ::-webkit-scrollbar-track{
+    background-color: #d1e5ff;
+ }
+
+ /* here we add the thumb for the scroll bar */
+ ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff,#ff22e6);
+    /* the scroll bar border radius will be rounded */
+    border-radius: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
